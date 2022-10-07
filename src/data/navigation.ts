@@ -186,25 +186,25 @@ const templatesChildrenMenus: NavItemType[] = [
 ];
 
 export const NAVIGATION_DEMO: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Home",
-    type: "dropdown",
-    children: demoChildMenus,
-    isNew: true,
-  },
-  {
-    id: ncNanoId(),
-    href: "/unique_id_",
-    name: "Five columns",
-    type: "megaMenu",
-    megaMenu: megaMenuDemo,
-  },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/",
+  //   name: "Home",
+  //   // type: "dropdown",
+  //   // children: demoChildMenus,
+  //   // isNew: true,
+  // },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/unique_id_",
+  //   name: "Not sure",
+  //   type: "megaMenu",
+  //   megaMenu: megaMenuDemo,
+  // },
   {
     id: ncNanoId(),
     href: "/listing-stay",
-    name: "Listing Page",
+    name: "Gatherings & Experiences",
     type: "dropdown",
     isNew: true,
     children: [
@@ -296,7 +296,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/author",
-    name: "Templates",
+    name: "Workshops & Masterclasses",
     type: "dropdown",
     children: templatesChildrenMenus,
   },
@@ -304,7 +304,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/blog",
-    name: "Other pages",
+    name: "Trips & Workations",
     type: "dropdown",
     children: otherPageChildMenus,
   },

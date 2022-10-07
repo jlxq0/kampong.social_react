@@ -16,13 +16,12 @@ const SectionHero: FC<SectionHeroProps> = ({ className = "" }) => {
       <div className="flex flex-col lg:flex-row lg:items-center">
         <div className="flex-shrink-0 lg:w-1/2 flex flex-col items-start space-y-8 sm:space-y-10 pb-14 lg:pb-64 xl:pr-14 lg:mr-10 xl:mr-0">
           <h2 className="font-medium text-4xl md:text-5xl xl:text-7xl !leading-[114%] ">
-            Hotel, car & experiences
+            Join the <b>Kampong Social Club</b>today!
           </h2>
           <span className="text-base md:text-lg text-neutral-500 dark:text-neutral-400">
-            Accompanying us, you have a trip full of experiences. With Chisfis,
-            booking accommodation, resort villas, hotels
+            You're done with the average? You want to meet a great community? You want to connect with awesome people? You're an entrepreneur, a digital nomad, an astronaut – or just in general an interesting person?
           </span>
-          <ButtonPrimary>Start your search</ButtonPrimary>
+          <ButtonPrimary>Join us!</ButtonPrimary>
         </div>
         <div className="flex-grow">
           <img className="w-full" src={imagePng} alt="hero" />
@@ -30,7 +29,7 @@ const SectionHero: FC<SectionHeroProps> = ({ className = "" }) => {
       </div>
 
       <div className="hidden lg:block z-10 mb-12 lg:mb-0 lg:-mt-40 w-full">
-        <HeroSearchForm />
+        {/* <HeroSearchForm /> */}
       </div>
     </div>
   );
